@@ -1,0 +1,22 @@
+- An object is a region of memory with a type that specifies what kind of information can be placed in it.
+- A named object is called a variable and has a specific type.
+- The data items we put into variables are called values.
+- A statement that introduces a new name and sets aside memory for a variable is called a definition.
+- cout -> character output
+    ^- << output operator
+- cin -> character input
+    ^- >> input operator
+- Reading of strings is terminated by whitespace (space, newline, and tab), but otherwise whitespace is ignored (ex. spaces before number input will be ignored).
+- Initialization: giving a variable its initial value.
+- Assignment: giving a variable a new value.
+- A type defines a set of possible values and operations (for an object).
+- An object is some memory that holds a value of a given type.
+- A value is a set of bits in memory interpreted according to a type.
+- A variable is a named object.
+- A declaration is a statement that gives a name and type to an object.
+- A definition is a declaration that sets aside memory for an object.
+- A program is type-safe when all objects are used only according to the rules for their type.
+- Always initialize variables; uninitialized variables are not type-safe.
+- Conversions are of two kinds:
+    ^- Widening: Conversions that preserve information, such as char to int.
+    ^- Narrowing: Conversions that may lose information, such as int to char.
