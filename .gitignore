@@ -1,2 +1,8 @@
-build
-.vscode
+*
+!Ch1
+!Ch1/*.cpp
+!Ch1/*.txt
+
+!Ch2
+!Ch2/*.cpp
+!Ch2/*.txt
