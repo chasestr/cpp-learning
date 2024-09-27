@@ -1,0 +1,11 @@
+- C++ code is compiled into machine/object code, and the resulting files are linked using a linker. 
+    ^- The output of the linker is an executable file.
+    ^- Object code and executable files are NOT portable among systems. When you compile for a Windows machine, you get object code that would not be able to run on a Linux machine.
+- Errors found by the compiler are compile-time errors.
+- Errors found by the linker are called link-time errors.
+- Errors not found until the program is run are called run-time or logic errors.
+- A function has four parts:
+    ^- A return type
+    ^- A name
+    ^- A parameter list
+    ^- A function body
