@@ -1,12 +1,10 @@
 *
-!Ch1
-!Ch1/*.cpp
-!Ch1/*.txt
+!**/
+!PPP/Ch1/*.cpp
+!PPP/Ch1/*.txt
 
-!Ch2
-!Ch2/*.cpp
-!Ch2/*.txt
+!PPP/Ch2/*.cpp
+!PPP/Ch2/*.txt
 
-!Ch3
-!Ch3/*.cpp
-!Ch3/*.txt
+!PPP/Ch3/*.cpp
+!PPP/Ch3/*.txt
