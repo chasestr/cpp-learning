@@ -1,0 +1,38 @@
+- Our job as programmers is to express computations correctly, simply, and efficiently.
+- Our main tool for organizing a program - and organizing our thoughts as we program - is to break a big computation into many little ones. This technique comes in 
+two variations:
+    ^- Abstraction: Hide details (implementation details) behind a convenient and general interface.
+    ^- Divide-and-conquer: Take a large problem and divide it into several little ones.
+- The most basic building block of programs is an expression. An expression computes a value from a number of operands.
+- Programs also use a lot of constant values. C++ offers symbolic constants, which are named objects that don't allow you to change their value after initialization.
+    ^- ex. constexpr double pi = 3.14159;
+- With constant expressions (mentioned above), the value must be known at compile time. If the value is unknown at compile time but is one which never changes after 
+initialization, the alternative "const variable" should be used.
+    ^- ex. const int c3 = n; where n is some integer taken from input.
+- Selection statements: used to select among alternatives.
+    ^- Options in C++:
+        ^- if-statements: used to select between two alternatives.
+        ^- switch-statements: selection based on comparison of a value against several constants.
+            ^- The value on which we switch must be an int, char, or enum (can't be a string or float).
+            ^- The values in the case labels must be constant expressions; they cannot be variables.
+            ^- You cannot use the same value for two case labels.
+            ^- You can use several case labels for a single case.
+            ^- You need to remember to end each case with a break.
+- Iteration options in C++:
+    ^- while-statements: execute as long as a condition is true (evaluates the condition first).
+    ^- for-statements: allow you to initiate a counter variable, check condition, and counter increment in a single line.
+        ^- used when there is a known number of iterations
+- Function-definition syntax:
+    type-identifier[return type] function-identifier (parameter-list) {function-body}
+    ex. int square (int a) {return a*a;}
+- Function declaration syntax:
+    type-identifier[return type] function-identifier (type-identifier parameter list)
+    ex. int square(int);
+- A vector is a sequence of elements that you can access by an index.
+    ^- ex. vector<int> v = {5, 6, 7, 8, 9};
+    ^- ex. vector<int> v(6);
+    ^- Vectors only accept elements of their declared element type.
+    ^- The push_back() method adds an element to the end of a vector. Vectors are not like arrays in other languages; they do not have to have a specified size.
+        ^- ex. vector<double> v;
+               v.push_back(2.6);
+    
